@@ -10,9 +10,9 @@ contract FundMeTest is Test {
 
     function setUp() external {
         //fundMe = new FundMe(
-            0x694AA1769357215DE4FAC081bf1f309aDC325306);
+        //0x694AA1769357215DE4FAC081bf1f309aDC325306);
         DeployFundMe deployFundMe = new DeployFundMe();
-        fundMe = deployFundMe.run();     
+        fundMe = deployFundMe.run();
     }
 
     function testMinimumDollarIsFive() public {
